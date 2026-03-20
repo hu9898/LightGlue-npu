@@ -43,6 +43,12 @@ python -m pip install -e .
 
 We provide a [demo notebook](demo.ipynb) which shows how to perform feature extraction and matching on an image pair.
 
+## Development and version control
+
+This fork keeps its local development workflow in [docs/git-workflow.md](docs/git-workflow.md).
+If you want Codex to modify files and create a local Git checkpoint for that task, use
+[`scripts/codex_auto_commit.sh`](scripts/codex_auto_commit.sh) from the repository root instead of a plain interactive `codex` session.
+
 Here is a minimal script to match two images:
 
 ```python
